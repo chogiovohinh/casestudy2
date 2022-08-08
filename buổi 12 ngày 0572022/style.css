@@ -1,0 +1,68 @@
+html body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header {
+height: 200px;
+width: 100%;
+background-color: orangered;
+padding: 0px 50px;
+box-sizing: border-box;
+}
+.product-container{
+    height: 800px;
+    width: 100%;
+    padding: 50px 200px;
+    box-sizing: border-box;
+}
+header > h1 {
+    float: left;
+    margin: 85px 0px;
+    height: 30px;
+    color: white;
+    border: none;
+}
+header > input {
+    float: right;
+    margin: 85px 0px;
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+}
+.product {
+    width: 15%;
+    float: left;
+     margin: 20px 30px;
+}
+.product img {
+    width: 100%;
+}
+.product-detail{
+    padding: 10px 20px;
+}
+.product-detail p {
+    font-weight: 800;
+    font-size: 18px;
+    margin: 0;
+}
+.product-detail span {
+    font-style: italic;
+}
+@media screen and ( max-width: 1000px) {
+    .product-container{
+        padding: 50px 20px;
+    }
+    .product{
+        margin: 10px 10px;
+        display: none;
+    }
+}
+@media screen and (max-width: 700px) {
+header input {
+    display: none;
+}
+}

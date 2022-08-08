@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice table & Form</title>
+</head>
+<body>
+    <form action="#">
+        <table>
+            <tr>
+            <td> Sign Up</td>
+            </tr>
+            <tr>
+            <td> <label for="1"> First name</td>
+            <td><input type="text" name="First name" placeholder="Enter First Name" required id="1"> </td></label>
+            </tr>
+            <tr>
+                <td>Last name</td>
+                <td><input type="text" name="Last name" placeholder="Enter Last Name" required> </td>
+            </tr>
+            <tr>
+                <td>Date of birth</td>
+                <td> <input type="date">
+                <input type="Month">
+                <input type="Years"></td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td> 
+                    <input type="radio" name="Gender" value="Male">Male
+                    <input type="radio" name="Gender" value="Female"> Female
+                </td>
+            </tr>
+            <tr>
+                <td>Country</td>
+                <td>
+                    <select name="Country" id="">
+                        <option value="USA">USA</option>
+                        <option value="Viet Nam">Viet Nam</option>
+                        <option value="Laos">Laos</option>
+                        <option value="France">France</option>
+                        <option value="Brazil">Brazil</option>
+                    </select>
+                </td>
+            </tr>
+            <tr> 
+                <td>E-mail</td>
+                <td><input type="email" name="E-mail" placeholder="Enter E-mail"> </td>
+            </tr>
+            <tr>
+                <td>Phone</td>
+                <td><input type="tel" placeholder="Enter your phone number"  name="Phone"> </td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td>
+                    <input type="Password" name="Password">
+                </td>
+            </tr>
+            <tr>
+                <td>Confirm Password</td>
+                <td><input type="Password" name="Confirm Password"> </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td >
+                 <input type="checkbox" name="agree">i agree to the Tearms of use </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" name="Submit" value="submit">
+                    <input type="button" onclick="cancel()" value="Cancel">
+                
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

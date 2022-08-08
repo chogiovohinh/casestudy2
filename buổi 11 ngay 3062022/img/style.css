@@ -1,0 +1,108 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    color: #5E8FB5 ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+}
+header{
+    /* background-color: chocolate; */
+    height: 20%;
+}
+header img {
+height: 70%;
+margin: 20px;
+}
+header ul{
+    list-style: none;
+    float: right;
+}
+header ul li {
+    display: inline-block;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+header ul li:hover {
+    color: yellow;
+    font-weight: 800;
+}
+header button{
+    background-color: white;
+    color: #5E8FB5;
+    border: 1px solid #5E8FB5;
+    float: right;
+    margin-top: 50px;
+    margin-right: 50px;
+    height: 50px;
+    padding: 5px 40px;
+}
+
+.banner{
+    border: none;
+    width: 100%;
+    height: 70%;
+}
+.intro{
+    /* background-color: aqua; */
+    height: 70%;
+    width: 100%;
+    text-align: center;
+    padding: 50px 24%;
+    box-sizing: border-box;
+    line-height: 40px;
+}
+.intro button, .welcome button{
+    background-color: white;
+    color: #5E8FB5;
+    border: 1px solid #5E8FB5;
+    margin-top: 50px;
+    margin-right: 50px;
+    height: 50px;
+    padding: 5px 40px;
+    text-align: center;
+    transition-delay: 2s;
+    transition: color 3s padding 3s;
+}
+button:hover{
+    color: yellow;
+    border-color: yellow;
+    padding-left: 100px;
+
+}
+.welcome{
+    background-color: #e1eff4;
+    padding: 50px 30px ;
+    height: 1900px;
+}
+.welcome h2 {
+    text-align: center;
+}
+.welcome > h2 ::first-letter {
+    font-size: 40px;
+    text-decoration: underline;
+    color: orange;
+}
+.house-intro {
+width: 46%;
+background-color: white;
+float: left;
+margin-bottom: 50px;
+margin-right: 50px;
+height: 600px;
+}
+ .house-intro:nth-child(4), .house-intro:nth-child(5), .house-intro:nth-child(6) {
+    width: 29%;
+    height: 450px;
+}
+ .house-intro:nth-child(4), .house-intro:nth-child(5), .house-intro:nth-child(6)  img{
+    height: 300px;
+}
+.house-intro img {
+    width: 100%;
+    height: 400px;
+}
+.house-intro p{
+    color: darkgray;
+}

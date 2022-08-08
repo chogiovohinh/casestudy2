@@ -1,0 +1,53 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container {
+    width: 90%;
+    height: 70%;
+    margin: auto;
+    margin-top:100px;
+    background-color: indigo;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+    /* 
+    flex-direction: row colum row-reverse| column-reverse ; Định dạng cách xếp các item.
+    justify-content: flex-start flex-end space-around space-between center; sử dụng để căn chỉnh các flex items theo chiều ngang.
+    align-items: flex-start flex-end center; cách bố trí các item theo chiều dọc.
+    flex-wrap: nowrap wrap wrap-reverse; Định dạng item tạo khối bọc tự động xuống hàng
+    flex-flow: ; Cú pháp viết tắt của flex-direction: ; và flex-wrap: ;
+    align-content: center| flex-end| flex-start| space-around| space-between| space-evenly ;sử dụng để căn chỉnh các flex lines.
+    */
+}
+.item1 {
+    background-color: aqua;
+    /*  1.flex-grow:number|intital| inherit ; chỉ định mức độ mà một flex item sẽ phát triển so với phần còn lại của các  flex items
+    number: Một số xác định item sẽ phát triển như thế nào so với các flex item khác.
+    initial: Nó đặt giá trị thành giá trị mặc định.
+    inherit: Nó kế thừa thuộc tính từ các phần tử mẹ.
+        2.flex-shrink: ;  chỉ định mức độ mà một flex item sẽ co lại so với phần còn lại của các flex items .
+        3.flex-basis:nunber|auto|Intital|inherit; 
+    number: một đơn vị độ dài xác định độ dài ban đầu của item.
+    auto: Đây là giá trị mặc định, nếu độ dài không được chỉ định thì độ dài sẽ theo nội dung của nó.
+    initial: Nó đặt thuộc tính là giá trị mặc định.
+    inherit: Nó chỉ định rằng một thuộc tính sẽ kế thừa giá trị từ phần tử mẹ.*/
+}
+.item2 {
+    background-color: crimson;
+}
+.item3 {
+    background-color: greenyellow;
+}
+.item4 {
+    background-color: blue;
+}

@@ -1,0 +1,36 @@
+body {
+  font-family: Gotu;
+  font-size: 16 px;
+  line-height: 24px;
+}
+
+#container {
+  max-width: 800px;
+  margin: auto;
+}
+#container h1 {
+  color: blue;
+}
+#container nav ul {
+  list-style: none;
+  display: flex;
+}
+#container nav ul li {
+  background-color: lightskyblue;
+  border: 2px solid blue;
+  flex-grow: 2;
+  line-height: 40px;
+  text-align: center;
+  transition: 1s;
+}
+#container nav ul li a {
+  text-decoration: none;
+  color: blue;
+}
+#container nav ul li:hover {
+  background-color: blue;
+}
+#container nav ul li:hover a {
+  color: lightskyblue;
+  font-weight: bold;
+}/*# sourceMappingURL=style.css.map */
